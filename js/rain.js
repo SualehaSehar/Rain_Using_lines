@@ -62,9 +62,6 @@ function singleCloud() {
 
   const intervals = (2.0 * Math.PI) / 8;
 
-  // texture loader to load our image file
-  let texture = new THREE.TextureLoader().load("cloud.jpg");
-
   var geometry = new THREE.CircleGeometry(
     5, // circle radius
     32 // segments
